@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        body{
+            font-family: Consolas;
+        }
+        section{
+            background-color: rgb(246, 233, 233);
+            padding: 10px;
+            margin: 15px;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(188, 166, 166, 0.1);
+        }
+            input[type="submit"], select, textarea {
+            width: 94%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: auto;
+            height: 100px;
+            width: 100px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RATE A MOVIE</h1>
+        <br>
+        <p>Say something about the content</p>
+    </header>
+
+    <section>
+        <form action="">
+            <img src="" alt="movie logo">
+            <label for="movies">Select a Movie</label>
+                <select id="movies">
+                    <option value="m1">Select</option>
+                    <option value="m2">Spiderman: Brand New Day</option>
+                    <option value="m3">Insidious: Out of the Further</option>
+                    <option value="m4">Obsession</option>
+                </select>
+                <br>
+            <label for="genre">Genre/s</label>
+            <br>
+            <input type="checkbox"  id="genre1" name="genre1">
+                <label for="genre1">Action</label>
+            
+            <input type="checkbox"  id="genre2" name="genre2">
+                <label for="genre2">Comedy</label>
+            
+            <input type="checkbox"  id="genre3" name="genre3">
+                <label for="genre3">Horror</label>
+                
+            <input type="checkbox"  id="genre4" name="genre4">
+                <label for="genre4">Sci-Fi</label>
+                
+            <input type="checkbox"  id="genre5" name="genre5">
+                <label for="genre5">Other</label>
+                <br>
+                <br>
+            <label for="rate">Rating</label>
+            <br>
+            <input type="radio"  id="rate1" name="rating">
+                <label for="rate1">⭐</label>
+            <input type="radio"  id="rate2" name="rating">
+                <label for="rate2">⭐⭐</label>
+            <input type="radio"  id="rate3" name="rating">
+                <label for="rate3">⭐⭐⭐</label>
+            <input type="radio"  id="rate4" name="rating">
+                <label for="rate4">⭐⭐⭐⭐</label>
+            <input type="radio"  id="rate5" name="rating">
+                <label for="rate5">⭐⭐⭐⭐⭐</label>
+            <br><br>
+            <textarea id="review" name="review" rows="4" cols="40"  placeholder="Moview Review"></textarea>
+            <br>
+            <input type="submit" id="submit" name="submit" value="Submit Review">
+            <br>
+            For moview review tips, click <a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review" target="_blank">here</a>
+        </form>
+    </section>
+    <!-- -->
+<!--Reference
+	Nyfa, & Nyfa. (2024, March 23). How to write a movie review: 10 essential tips. NYFA. https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/
+-->
+</body>
+</html>
